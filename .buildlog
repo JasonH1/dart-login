@@ -1,0 +1,485 @@
+---
+build.dart --machine --full
+
+build.dart finished [1787 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1621 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1624 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1557 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1397 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1658 ms]
+
+
+build.dart finished [1626 ms]
+
+---
+build.dart --machine --changed=web\login.css
+
+build.dart finished [1570 ms]
+
+---
+build.dart --machine --changed=web\login.css
+
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web\login.html
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1968 ms]
+
+
+build.dart finished [1908 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1486 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1535 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1546 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [2158 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1597 ms]
+
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"Move HTML imports above your Dart script tag.","line":13,"charStart":425,"charEnd":469}}]
+build.dart finished [1453 ms]
+
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"Move HTML imports above your Dart script tag.","line":13,"charStart":425,"charEnd":469}}]
+build.dart finished [1413 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+[{"method":"warning","params":{"file":"web/login.html","message":"Move HTML imports above your Dart script tag.","line":13,"charStart":425,"charEnd":469}}]
+build.dart finished [1524 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+[{"method":"warning","params":{"file":"web/login.html","message":"Move HTML imports above your Dart script tag.","line":13,"charStart":425,"charEnd":469}}]
+build.dart finished [1499 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1607 ms]
+
+---
+build.dart --machine --changed=web\login.html
+
+build.dart finished [1434 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1398 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.html
+
+build.dart finished [1565 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.dart
+
+build.dart finished [1610 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.dart
+
+build.dart finished [1854 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.dart
+
+build.dart finished [1545 ms]
+
+---
+build.dart --machine --changed=web\clickcounter.dart
+
+build.dart finished [1618 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html --removed=web\clickcounter.html
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":25,"charStart":941,"charEnd":956}}]
+build.dart finished [1551 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html --removed=web\clickcounter.html
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":25,"charStart":941,"charEnd":956}}]
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart --removed=web\clickcounter.dart
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":25,"charStart":941,"charEnd":956}}]
+build.dart finished [1409 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart --removed=web\clickcounter.dart
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":25,"charStart":941,"charEnd":956}}]
+build.dart finished [3078 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":25,"charStart":941,"charEnd":956}}]
+build.dart finished [1416 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":941,"charEnd":953}}]
+build.dart finished [1539 ms]
+
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":941,"charEnd":953}}]
+build.dart finished [1716 ms]
+
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"login\".","line":12,"charStart":344,"charEnd":388}}]
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":941,"charEnd":953}}]
+build.dart finished [1468 ms]
+
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":939,"charEnd":951}}]
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":939,"charEnd":951}}]
+build.dart finished [1441 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+---
+build.dart --machine --changed=web\dart-login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":939,"charEnd":951}}]
+build.dart finished [1663 ms]
+
+[{"method":"warning","params":{"file":"web/login.html","message":"definition for Polymer element with tag name \"dart-login\" not found.","line":25,"charStart":939,"charEnd":951}}]
+build.dart finished [1405 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1433 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1427 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1364 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1801 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1499 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1357 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1752 ms]
+
+
+build.dart finished [1851 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1460 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1414 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1412 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1577 ms]
+
+
+build.dart finished [1542 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1906 ms]
+
+
+build.dart finished [2003 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1469 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1491 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1511 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1754 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1610 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1386 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1496 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart --changed=web\dart-login.html
+
+build.dart finished [1361 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1948 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1488 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1424 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1516 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1497 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1437 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1462 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [2099 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1351 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1303 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1931 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1333 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [2279 ms]
+
+
+build.dart finished [4931 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1397 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1392 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1350 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1419 ms]
+
+---
+build.dart --machine --changed=web\dart-login.html
+
+build.dart finished [1308 ms]
+
+---
+build.dart --machine --changed=web\dart-login.dart
+
+build.dart finished [1199 ms]
+
+---
+build.dart --machine --full
+Uncaught Error: FileSystemException: Cannot open file, path = 'E:\Git\JasonH1\dart-login\packages\polymer\builder.dart' (OS Error: The system cannot find the file specified.
+, errno = 2)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'E:\Git\JasonH1\dart-login\packages\polymer\builder.dart' (OS Error: The system cannot find the file specified.
+, errno = 2)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [177 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1205 ms]
+
