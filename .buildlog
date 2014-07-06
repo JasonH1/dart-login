@@ -498,3 +498,18 @@ build.dart --machine --changed=build\web\dart-login.dart --changed=build\web\dar
 [{"method":"warning","params":{"file":"web/login.html","message":"link rel=\"stylesheet\" missing href.","line":18,"charStart":524,"charEnd":555}}]
 build.dart finished [1468 ms]
 
+---
+build.dart --machine --changed=web\dart-login.dart
+[{"method":"warning","params":{"file":"web/login.html","message":"link rel=\"stylesheet\" missing href.","line":18,"charStart":524,"charEnd":555}}]
+build.dart finished [2859 ms]
+
+---
+build.dart --machine --removed=build\web\dart-login.dart --removed=build\web\dart-login.html --removed=build\we...
+[{"method":"warning","params":{"file":"web/login.html","message":"link rel=\"stylesheet\" missing href.","line":18,"charStart":524,"charEnd":555}}]
+build.dart finished [1302 ms]
+
+---
+build.dart --machine --changed=build\web\dart-login.dart --changed=build\web\dart-login.html --changed=build\we...
+[{"method":"warning","params":{"file":"web/login.html","message":"link rel=\"stylesheet\" missing href.","line":18,"charStart":524,"charEnd":555}}]
+build.dart finished [1548 ms]
+

@@ -17,7 +17,8 @@ class DartLogin extends PolymerElement with ChangeNotifier  {
     
   }
 
-  void login() {
+  void login(Event event, var detail, Node target) {
+     
     print('login button pressed');
     print(email);
     print(password);
