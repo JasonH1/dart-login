@@ -483,3 +483,8 @@ build.dart --machine --changed=pubspec.yaml
 
 build.dart finished [1205 ms]
 
+---
+build.dart --machine --changed=web\login.html
+[{"method":"warning","params":{"file":"web/login.html","message":"link rel=\"stylesheet\" missing href.","line":18,"charStart":524,"charEnd":555}}]
+build.dart finished [1447 ms]
+

@@ -7,22 +7,22 @@
     <title>Sample app</title>
     <script src="packages/web_components/platform.js"></script>
     <script src="packages/web_components/dart_support.js"></script>
-    
+
     <!-- import the click-counter -->
     <link rel="import" href="dart-login.html">
-    
+
     <script type="application/dart">export 'package:polymer/init.dart';</script>
-    
+
     <script src="packages/browser/dart.js"></script>
-    
-    <link rel="stylesheet" href="https://app.theseventhsense.com/assets/build/0.8.2/stylesheets/app.css">
+
+    <link rel="stylesheet" href="">
   </head>
-  <body class="activeApp" ng-class="{'widgetModeFix': widgetMode}">
-  
+  <body >
+
     <div class="main-view ng-scope" ng-view="">
       <div class="auth-container container ng-scope" ng-controller="LoginController">
         <div class="col-md-offset-3 col-md-5 col-sm-offset-3 col-sm-7">
-          <dart-login></dart-login>  
+          <dart-login></dart-login>
         </div>
       </div>
     </div>
